@@ -1,0 +1,11 @@
+{
+  "name": "nextback",
+  "version": "1.0.0",
+  "description": "setup a professional project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "21@sharad",
+  "license": "ISC"
+}
