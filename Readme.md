@@ -29,3 +29,22 @@
  4.git push
 
  -->
+
+ #MONGO_DB setup
+
+ #INSTALL : npm i mongoose express dotenv
+ <!-- 
+ 
+ How mongoose connect with database
+         
+       const mongoose = require('mongoose')
+       mongoose.connect('mongodb+srv://sharad:sharad123@codefile.iovnn.mongodb.net')  
+
+       Note: 
+
+       1.Database se jab bhi bat karne ki kosis karunga to problem aa sakti hy so raape in try and catch  OR take Promises aur promisese me bhi resolve ho jati hy by resolve and reject
+
+       2.Database is always in other content (means jab bhi database ko access karoge to time lega islye   "async aur await ka use karo")
+
+ 
+  -->
