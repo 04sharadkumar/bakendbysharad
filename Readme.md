@@ -1,6 +1,6 @@
-# chai and backend
+# Chai and Backend
 
-# professional structure----------
+# Professional Structure----------
 
 <!-- 
 
@@ -17,7 +17,7 @@
 6.utility: files uploading ,mails uploading etc use for make aur jo functionality bar bar use hogi usko q na ik folder me rakh diya jaye
  -->
 
-# how to commit with command---------
+# How to commit with command---------
 
 <!-- 
  1.git status 
