@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { DB_NAME } from "../constants.js";
 
-//                       second method to connect with database
+// second method to connect with database
 
 const connectDB = async ()=> {
 
@@ -17,6 +17,7 @@ const connectDB = async ()=> {
 
         console.log("MongoDB Connection FAILED ", error)       
         process.exit(1)
+
         // node js give access of process. Aur ye jo current application chal rahi hy ye uska referance hy
         // aur num process ko exit kar sakte ht with duffernt type
 
