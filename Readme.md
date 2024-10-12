@@ -59,3 +59,25 @@
 
 
    -->
+#work on utils
+
+
+#making of models
+
+
+
+#mongoose-aggregate-paginate
+
+   npm i mongoose-aggregate-paginate-v2
+
+
+#bcrypt   
+   npm i bcrypt
+
+
+  <!-- it is used in every project -->
+
+
+#jwt(json web token)
+
+ <!-- it is used in every project -->
