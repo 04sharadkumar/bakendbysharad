@@ -72,6 +72,7 @@
 
 
 #bcrypt   
+
    npm i bcrypt
 
 
@@ -80,4 +81,14 @@
 
 #jwt(json web token)
 
+
  <!-- it is used in every project -->
+
+
+#file Upload
+   
+   expressfileupload || Multer (used in video)
+
+  file,Image etc upload free on cloudnary 
+
+  npm i multer cloudnary
