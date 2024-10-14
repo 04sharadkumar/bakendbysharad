@@ -92,3 +92,13 @@
   file,Image etc upload free on cloudnary 
 
   npm i multer cloudnary
+
+
+#------------------HTTP Crash Course
+
+  notes reading
+
+#--------------------- Complete guide for router and controller 
+
+
+

@@ -7,10 +7,10 @@ const connectDB = async ()=> {
 
     try {
 
-        const conntionInstance = await mongoose.connect
+        const connetionInstance = await mongoose.connect
         (`${process.env.MONGODB_URI}/${DB_NAME}`)  // second variable use for give database name
         
-        console.log(`\n MongoDB connected !! DB Host ${conntionInstance.connection.host}`);
+        console.log(`MongoDB connected !! DB Host ${connetionInstance.connection.host}`);
         
         
     } catch (error) {
@@ -20,10 +20,7 @@ const connectDB = async ()=> {
 
         // node js give access of process. Aur ye jo current application chal rahi hy ye uska referance hy
         // aur num process ko exit kar sakte ht with duffernt type
-
-        
-        
-        
+      
     }
 }
 

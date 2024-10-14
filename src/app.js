@@ -4,30 +4,28 @@ import cookieParser from "cookie-parser"
 
 const app = express()
 
-//it is used for middleware and configuration 
-
 app.use(cors({
-
-    origin:process.env.CORS_ORIGIN,
-    credentials:true
-
-    // ctrl + space : explore its another value or read from documentation(npmjs.com/packages/cors)
-
+    origin: process.env.CORS_ORIGIN,
+    credentials: true
 }))
 
-// ye humne form bhara tab data liya
-
-app.use(express.json({limit:"16kb"}))
-
-// when data come from url
-
-app.use(express.urlencoded({extended:true,limit:"16kb"}))
-
-//it is use for store images and eserts in Public folder
+app.use(express.json({limit: "16kb"}))
+app.use(express.urlencoded({extended: true, limit: "16kb"}))
 app.use(express.static("public"))
-
 app.use(cookieParser())
 
+
+//routes import
+
+import userRouter from './routes/user.routes.js'
+
+
+
+//routes decleration 
+
+app.use("/api/v1/users", userRouter)
+
+//  http://localhost:8000/api/v1/users/register  (jese hi users likha hamere pas routes ka access aa gya)
 
 
 export { app } 
